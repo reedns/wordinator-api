@@ -10,10 +10,12 @@
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
 
-# Although this is not needed for an api-only application, rails4 
-# requires secret_key_base or secret_token to be defined, otherwise an 
+# Although this is not needed for an api-only application, rails4
+# requires secret_key_base or secret_token to be defined, otherwise an
 # error is raised.
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-WordinatorApi::Application.config.secret_token = '9f4d311ed1f44d3fef4df746a4cd99feafeb3ed81cfaaa78618f368c3a8a9e5c0b87a014ee206665a571119f759f6d900bb08b6fef6086efbb6922fd83b292a7'
+WordinatorApi::Application.config.secret_token =
+  '9f4d311ed1f44d3fef4df746a4cd99feafeb3ed81cfaaa78618f368c3a8a9e5c0b87
+  a014ee206665a571119f759f6d900bb08b6fef6086efbb6922fd83b292a7'
